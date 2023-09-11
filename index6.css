@@ -1,0 +1,86 @@
+body{
+    width: 50%;
+    border: 3px solid rgb(99, 97, 97);
+    margin: 50px auto;
+    border-radius: 2px;
+    font-family: arial;
+}
+.column{
+    display: inline-block;
+    margin: 9px;
+    padding: 9px;
+    font-size: 20px;
+    color: blue;
+}
+#search{
+    border: 2px solid gray;
+    padding: 20px 95px 20px 95px;
+    display: inline-block;
+    margin-left: 20px;
+}
+#currentbtn{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#searchbtn{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+#searchbtn:hover{
+    background-color: #6d6deb;
+}
+#currentbtn:hover{
+    background-color: #09be09;
+}
+.info{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.info p{
+    opacity: 0.6;
+    margin-top: -12px;
+}
+h2{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.degrees{
+    margin-left: -63%;
+}
+h3{
+    opacity: 0.6;
+}
+.temp{
+    margin: -80px 10px 0 390px; 
+}
+.temp p{
+    margin-top: -10px;
+    opacity: 0.6;
+}
+.one{
+    display: inline-block;
+    margin: 0 50px 0 30px;
+}
+footer{
+    margin: 0 20px;
+    bottom: -70px;
+    position: relative;
+}
+.one p{
+    opacity: 0.6;
+}
+.one span{
+    font-size: 25px;
+}
+#link{
+    text-decoration: none;
+}
+#text-of-link{
+    position: absolute;
+    bottom: 10px;
+}
